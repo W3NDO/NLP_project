@@ -1,0 +1,51 @@
+So a general git workflow follows the following steps if you're working in a team.
+
+(I am assuming you are in the folder where you will store the local version of the repo)
+The first thing you will do is clone the repository. This creates a copy of the repo on your machine. 
+    if you're working via the terminal, cd into the folder then enter this command:
+
+     >> git clone https://github.com/W3NDO/NLP_project.git
+
+    It will create a folder "NLP_project".
+
+The next thing you want to do is create a new branch. 
+A branch allows you to make changes without any major effects to the master/main branch.
+To create a new branch, in the terminal, type 
+    
+    >> git checkout -b <branch_name> //this creates a new branch and switches you into that branch
+
+    You can also create a new branch with
+
+    >> git branch <branch_name> //but this still keeps you on the master branch. 
+    // to change to a different branch you type
+    >> git checkout <branch_name>
+
+Once you have a new branch, you can and enter any text you want.
+try making a file called "test.txt"
+
+Once you have finished with your changes, you need to add all the changes to your git. 
+This is done with the following command
+
+    >> git add . //this adds all the files
+
+    // You can also add specific files with 
+    >> git add <filename>
+
+After adding files, you want to commit the changes. This ensures you don't lose the changes.
+It also allows you to rollback changes. You commit with the following command
+
+    >> git commit -m "Commit message explaining changes"
+    // the flag -m is for message and it allows you to add a commit message. 
+    // Commit messages are important to allow your collaborators to understand what you did.
+
+Now that you are done with your commits, you want to change branch to master. 
+Again this is done by:
+    
+    >> git checkout master
+    // You can check what branch you're on with the command
+    >> git branch
+    // the branch you're working on will have an asterisk to the left of it.
+
+After you have switched back to master, you want to push the changes to the repo on github.
+This is kinda trick, but basically:
+    >> git push --set-upstream <branchmane> origin master
