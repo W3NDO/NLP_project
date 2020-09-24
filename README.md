@@ -1,11 +1,11 @@
 # NLP with Python :)
 
 ## The Group:
-Linza Oluoch [linza-oluoch](github.com/linza-oluoch)
+Linza Oluoch [linza-oluoch](https://github.com/linza-oluoch)
 
-Sharon Achieng [achieng2068](github.com/achieng2068)
+Sharon Achieng [achieng2068](https://github.com/achieng2068)
 
-Patrick Wendo [W3NDO](github.com/W3NDO)
+Patrick Wendo [W3NDO](https://github.com/W3NDO)
 
 ## The Problem
 
