@@ -48,4 +48,18 @@ Again this is done by:
 
 After you have switched back to master, you want to push the changes to the repo on github.
 This is kinda trick, but basically:
-    >> git push --set-upstream <branchmane> origin master
+    >> git push --set-upstream origin <branch_name>
+
+    or 
+
+    >> git push -u origin <branch_name>
+
+This tells git to push to the main branch on git. This does not merge however.
+
+After you've pushed, you need to go to the giHub page of the repo.
+It will tell you that your repo is a couple commits ahead of the master. 
+You will then be offered the option to compare and create a Pull Request. 
+Once you create a pull request, it will allow others to review, comment and eventually merge your code.
+
+But this is basically the workflow. There are other small things like git stash, but those are rather situation specific. 
+The git documentation also explains a lot. 
