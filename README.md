@@ -1,7 +1,7 @@
 # NLP with Python :)
 
 ## The Group:
-Linza Oluoch [linza-oluoch](github.com/linza-oluoch)
+Linza Oluoch [linza-oluoch](https://github.com/linza-oluoch)
 
 Sharon Achieng [achieng2068](github.com/achieng2068)
 
